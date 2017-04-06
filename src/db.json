@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "city": "Bandung",
+      "travel": [
+        {
+          "id": 1,
+          "title": "Alun-Alun Bandung",
+          "content": "Waktu pertama berdirinya kota bandung, kuda merupakan alat trasportasi pertama",
+          "imageUrl": "http://petatempatwisata.com/wp-content/uploads/2016/04/Alun-Alun-Kota-Bandung-2.jpg"
+        }
+      ]
+    },{
+      "id": 2,
+      "city": "Sukabumi",
+      "travel": [
+        {
+          "id": 1,
+          "title": "Geopark ciletuh",
+          "content": "Geopark Ciletuh Sukabumi ini adalah salah satu lokasi liburan keren yang patut untuk kalian pertimbangan",
+          "imageUrl": "http://bisniswisata.co.id/wp-content/uploads/2015/11/Geopark-Ciletuh.jpg"
+        }
+      ]
+    }
+  ],
+  "profile": { "name": "Dudung" }
+}
