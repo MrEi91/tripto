@@ -12,7 +12,7 @@ const Header = () => {
           <Text>Cities</Text>
       </Tab>
       <Tab heading={ <TabHeading><Icon name="person"/><Text> Profile</Text></TabHeading> }>
-          <Text>Profile</Text>
+          <Text>Login with facebook</Text>
       </Tab>
     </Tabs>
     </Container>
