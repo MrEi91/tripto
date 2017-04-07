@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <Container>
     <Tabs>
-      <Tab Tab heading={ <TabHeading><Icon name="home"/><Text> Cities</Text></TabHeading> }>
+      <Tab Tab heading={ <TabHeading><Icon name="home"/><Text> Home</Text></TabHeading> }>
           <Text>Cities</Text>
       </Tab>
       <Tab heading={ <TabHeading><Icon name="person"/><Text> Profile</Text></TabHeading> }>
