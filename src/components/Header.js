@@ -9,15 +9,23 @@ const Header = () => {
   return (
     <Container>
       <Tabs>
-        <Tab Tab heading={ <TabHeading><Icon name="home"/><Text> Home</Text></TabHeading> }>
+        <Tab Tab heading={ <TabHeading><Icon name="home"/><Text style={styles.textMenu}> Home</Text></TabHeading> }>
           <Cities/>
         </Tab>
-        <Tab heading={ <TabHeading><Icon name="person"/><Text> Profile</Text></TabHeading> }>
+        <Tab heading={ <TabHeading><Icon name="person"/><Text style={styles.textMenu}>Profile</Text></TabHeading> }>
           <Profile />
         </Tab>
       </Tabs>
     </Container>
   );
+}
+
+const styles = {
+  textMenu : {
+    fontWeight: 'bold',
+    color: '#ffffff',
+    marginLeft: 15
+  },
 }
 
 export default Header
