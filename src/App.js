@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
-import { View, Text } from 'react-native'
+import { Provider } from 'react-redux'
 
-import Header from './components/Header'
+import store from './store/index'
+import Wrapper from './components/Wrapper'
 
 class App extends Component {
   render () {
     return (
-      <Header />
+      <Provider store={store}>
+        <Wrapper />
+      </Provider>
     )
   }
 }
