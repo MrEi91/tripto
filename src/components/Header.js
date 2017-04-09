@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <Container>
       <Tabs>
-        <Tab Tab heading={ <TabHeading><Icon name="home"/><Text style={styles.textMenu}> Home</Text></TabHeading> }>
+        <Tab Tab heading={ <TabHeading><Icon name="home"/><Text style={styles.textMenu}>Home</Text></TabHeading> }>
           <Cities/>
         </Tab>
         <Tab heading={ <TabHeading><Icon name="person"/><Text style={styles.textMenu}>Profile</Text></TabHeading> }>
