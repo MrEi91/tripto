@@ -1,22 +1,20 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { View, Text } from 'react-native'
+import {Scene, Router} from 'react-native-router-flux'
 
 import Profile from './Profile'
 import Home from './Home'
+import Tour from './Tour'
 
 const Wrapper = (props) => {
   return (
-    <View style={{ flex: 1 }}>
-      { props.scene === 'HOME' && <Home /> }
-    </View>
+    <Router>
+      <Scene key="root">
+        <Scene key="Home" component={Home} initial={true} hideNavBar={true} />
+        <Scene key="Tour" component={Tour} title="Tour" hideNavBar={true} />
+        <Scene key="Profile" component={Profile} title="Profile"/>
+      </Scene>
+    </Router>
   )
 }
 
-const mapStateToProps = (state) => {
-  return ({
-    scene: state.scene
-  })
-}
-
-export default connect(mapStateToProps, null)(Wrapper)
+export default Wrapper
