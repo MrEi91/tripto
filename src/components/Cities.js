@@ -13,7 +13,7 @@ class Cities extends Component {
 
   componentDidMount () {
     const self = this
-    fetch('http://febd3618.ngrok.io/cities')
+    fetch('http://36d42e3e.ngrok.io/cities')
       .then((response, err) => {
         if (err) throw err
         return response.json()
