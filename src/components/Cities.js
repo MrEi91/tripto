@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { View, Text, Image, TouchableOpacity, ActivityIndicator } from 'react-native'
 import { Container, Content, Card, CardItem, Body } from 'native-base'
-import {Actions} from 'react-native-router-flux'
+import { Actions } from 'react-native-router-flux'
 
 class Cities extends Component {
   constructor () {
@@ -13,7 +13,7 @@ class Cities extends Component {
 
   componentDidMount () {
     const self = this
-    fetch('http://36d42e3e.ngrok.io/cities')
+    fetch('http://6f1a67c3.ngrok.io/cities')
       .then((response, err) => {
         if (err) throw err
         return response.json()
