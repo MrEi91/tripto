@@ -13,7 +13,7 @@ class Cities extends Component {
 
   componentDidMount () {
     const self = this
-    fetch('http://6f1a67c3.ngrok.io/cities')
+    fetch('http://5f6fed4d.ngrok.io/cities')
       .then((response, err) => {
         if (err) throw err
         return response.json()
@@ -36,7 +36,7 @@ class Cities extends Component {
                   <View key={index} style={{ flexDirection: 'row' }}>
                     <Card style={{ flex : 0, width: '100%'}}>
                       <CardItem>
-                        <TouchableOpacity style={{ flex : 0, width: '100%'}} onPress={Actions.Tour}>
+                        <TouchableOpacity style={{ flex : 0, width: '100%'}} onPress={() => Actions.Tour({cityId: item.id})}>
                           <Body>
                             <Image style={{ resizeMode: 'cover', height: 150, width: '100%' }} source={{ uri: item.urlImage }}><Text style={{color:'#ffffff', fontWeight: 'bold', fontSize:30, marginLeft: 5, marginTop: '25%'}}>{item.tour.length}</Text></Image>
                           <Text style={{ fontWeight: 'bold' }}>{item.city}</Text>
