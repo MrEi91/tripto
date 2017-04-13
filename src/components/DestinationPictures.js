@@ -3,23 +3,25 @@ import { View, Image, ScrollView, Text } from 'react-native'
 import { Card, CardItem } from 'native-base'
 
 class DestinationPictures extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
+      TourName: [],
       pictures: []
     }
   }
 
   componentDidMount () {
     const self = this
-    fetch('http://6f1a67c3.ngrok.io/cities')
+    fetch('http://5f6fed4d.ngrok.io/cities/' + self.props.DestinationId)
       .then((response, err) => {
         if (err) throw err
         return response.json()
       })
-      .then(data => {
+      .then(dataTour => {
         self.setState({
-          pictures: data
+          TourName: dataTour.tour[0],
+          pictures: dataTour.tour[0].pictures
         })
       })
   }
@@ -28,7 +30,7 @@ class DestinationPictures extends Component {
     return (
       <View>
         <View style={styles.navbar}>
-          <Text style={styles.navbarText}>Alun - Alun Bandung</Text>
+          <Text style={styles.navbarText}>{this.state.TourName.title}</Text>
         </View>
         <ScrollView>
           <View style={styles.content}>
@@ -52,26 +54,21 @@ class DestinationPictures extends Component {
 
 const styles = {
   navbar: {
-    height: '10%',
+    height: '7%',
     width: '100%',
     padding: 10,
     backgroundColor: '#ff9900',
-    flexDirection:'row',
   },
   navbarText:{
     color:'#ffffff',
-    fontSize:20
+    fontSize:17,
+    marginBottom: 5
   },
   picture: {
     height: 150,
     width:'100%',
     resizeMode:'cover',
-  },
-  content:{
-    height: "90%",
-    width: "100%",
-    padding: 10,
-  },
+  }
 }
 
 export default DestinationPictures
