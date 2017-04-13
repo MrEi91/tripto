@@ -7,12 +7,43 @@
 			"id": 1,
 			"title": "Alun-Alun Bandung",
 			"content": "Waktu pertama berdirinya kota bandung, kuda merupakan alat trasportasi pertama",
-			"urlImage": "http://petatempatwisata.com/wp-content/uploads/2016/04/Alun-Alun-Kota-Bandung-2.jpg"
+			"urlImage": "http://petatempatwisata.com/wp-content/uploads/2016/04/Alun-Alun-Kota-Bandung-2.jpg",
+			"pictures":[{
+					"id": 1,
+					"urlImage": "http://petatempatwisata.com/wp-content/uploads/2016/04/Alun-Alun-Kota-Bandung-2.jpg"
+				},{
+						"id": 2,
+						"urlImage": "http://foxlox.net/wp-content/uploads/2015/01/FOXLADY-ALUN-ALUN-BANDUNG.jpg"
+				},{
+						"id": 3,
+						"urlImage": "http://cdn2.tstatic.net/jabar/foto/bank/images/aksi-antikorupsi-perca-integritas_20151210_110543.jpg"
+				},{
+						"id": 4,
+						"urlImage": "https://i.ytimg.com/vi/MPmdsIqXkHw/maxresdefault.jpg"
+				}]
 		}, {
-			"id": 1,
-			"title": "Dago",
-			"content": "Waktu pertama berdirinya kota bandung, kuda merupakan alat trasportasi pertama",
-			"urlImage": "http://2.bp.blogspot.com/-M4wFnKr0zhE/VbnUUFuZw4I/AAAAAAAAAqs/zl2snbZWoZo/s1600/20150419_104409.jpg"
+			"id": 2,
+			"title": "Gunung Tangkuban Perahu",
+			"content": "Tangkuban Parahu atau Gunung Tangkuban Perahu adalah salah satu gunung yang terletak di Provinsi Jawa Barat, Indonesia",
+			"urlImage": "http://4.bp.blogspot.com/-vGkBIHQofOc/VIDmlL5U7rI/AAAAAAAAA_0/xSDehehtAB0/s1600/165214_620.jpg",
+			"pictures":[{
+					"id": 1,
+					"urlImage": "http://www.shuhadaholidays.com/wp-content/uploads/2017/01/tangkubanperahu.jpeg"
+				},{
+						"id": 2,
+						"urlImage": "http://anekatempatwisata.com/wp-content/uploads/2014/08/Kawah-Gunung-Tangkuban-Perahu-2.jpg"
+				},{
+						"id": 3,
+						"urlImage": "http://uf.cari.com.my/forumx/mforum/portal/201508/13/180045spmiirbnkinmsiiz.jpg"
+				},{
+						"id": 4,
+						"urlImage": "http://indonesiaexplorer.net/wp-content/uploads/2014/08/Gunung-Tangkuban-Perahu-Objek-Wisata-di-Bandung.jpg"
+				}]
+		},{
+			"id": 3,
+			"title": "Kawah Putih",
+			"content": "Kawah Putih adalah sebuah tempat wisata di Jawa Barat yang terletak di kawasan Ciwidey. Kawah putih merupakan sebuah danau yang terbentuk dari letusan Gunung Patuha",
+			"urlImage": "https://banghendri.files.wordpress.com/2013/05/kawah-putih-3.jpg"
 		}]
 	}, {
 		"id": 2,
@@ -23,6 +54,16 @@
 			"title": "Geopark ciletuh",
 			"content": "Geopark Ciletuh Sukabumi ini adalah salah satu lokasi liburan keren yang patut untuk kalian pertimbangan",
 			"urlImage": "http://bisniswisata.co.id/wp-content/uploads/2015/11/Geopark-Ciletuh.jpg"
+		},{
+			"id": 2,
+			"title": "Panenjoan",
+			"content": "Panenjoan merupakan sebuah daerah ketinggian/tebing, dengan ketinggian kurang lebih 250 mdpl yang terletak di kawasan Taman Bumi Ciletuh (Ciletuh Geopark) Desa Taman Jaya Kecamatan Ciemas Kabupaten Sukabumi Jawa Barat",
+			"urlImage": "http://www.trivindo.com/data/images/2017/01/Panenjoan-ciletuh_800x480.jpg"
+		},{
+			"id": 3,
+			"title": "Curug Cikaso",
+			"content": "Mengunjungi sebuah air terjun merupakan salah satu cara untuk mendekatkan diri dengan alam. Di Sukabumi ada banyak curug atau air terjun yang bisa Anda kunjungi salah satunya ialah Curug Cikaso",
+			"urlImage": "http://zonalibur.com/wp-content/uploads/2016/07/Curug-Cikaso-Ujung-Genteng.jpg"
 		}]
 	}, {
 		"id": 3,
@@ -30,9 +71,19 @@
 		"urlImage": "https://chanailufar.files.wordpress.com/2011/11/bogoristana-ii.jpg",
 		"tour": [{
 			"id": 1,
-			"title": "Geopark ciletuh",
+			"title": "Istana Bogor",
 			"content": "Geopark Ciletuh Sukabumi ini adalah salah satu lokasi liburan keren yang patut untuk kalian pertimbangan",
-			"urlImage": "http://bisniswisata.co.id/wp-content/uploads/2015/11/Geopark-Ciletuh.jpg"
+			"urlImage": "http://cdn0-a.production.liputan6.static6.com/medias/814177/big/037614100_1424406960-ISTANA_BOGOR_2.jpg"
+		},{
+			"id": 2,
+			"title": "Kebun Raya Bogor",
+			"content": "Kebun Raya Bogor atau Kebun Botani Bogor adalah sebuah kebun botani besar yang terletak di Kota Bogor, Indonesia. Luasnya mencapai 87 hektaree dan memiliki 15.000 jenis koleksi pohon dan tumbuhan",
+			"urlImage": "http://www.serverharga.com/wp-content/uploads/2016/03/Kebun-Raya-Bogor-2.jpg"
+		},{
+			"id": 3,
+			"title": "Taman Kencana Bogor",
+			"content": "Taman Kencana merupakan taman kecil di antara area hijau di Kota Bogor yang semakin lama semakin menghilang seiring dengan kemajuan pembangunan kota. Taman ini merupakan salah satu peninggalan zaman Belanda",
+			"urlImage": "http://cdn2.tstatic.net/bogor/foto/bank/images/taman-kencana_20151215_090431.jpg"
 		}]
 	}, {
 		"id": 4,
@@ -40,9 +91,19 @@
 		"urlImage": "http://archive.itoday.co.id/wp-content/uploads/2013/01/garut.jpg",
 		"tour": [{
 			"id": 1,
-			"title": "Geopark ciletuh",
-			"content": "Geopark Ciletuh Sukabumi ini adalah salah satu lokasi liburan keren yang patut untuk kalian pertimbangan",
-			"urlImage": "http://bisniswisata.co.id/wp-content/uploads/2015/11/Geopark-Ciletuh.jpg"
+			"title": "Gunung Papandayan Garut",
+			"content": "Gunung Papandayan adalah gunung api strato yang terletak di Kabupaten Garut, Jawa Barat tepatnya di Kecamatan Cisurupan. Gunung dengan ketinggian 2665 meter di atas permukaan laut itu terletak sekitar 70 km sebelah tenggara Kota Bandung",
+			"urlImage": "http://digarut.com/assets/IMG_3079.jpg"
+		},{
+			"id": 2,
+			"title": "Pemandian Air Panas Tarogong Garut",
+			"content": "Gunung Papandayan adalah gunung api strato yang terletak di Kabupaten Garut, Jawa Barat tepatnya di Kecamatan Cisurupan. Gunung dengan ketinggian 2665 meter di atas permukaan laut itu terletak sekitar 70 km sebelah tenggara Kota Bandung",
+			"urlImage": "http://zonalibur.com/wp-content/uploads/2015/10/pemandian-air-panas-cipanas-garut1.jpg"
+		},{
+			"id": 3,
+			"title": "Rancabuaya Garut",
+			"content": "Pantai Rancabuaya adalah salah satu objek wisata pantai di Kabupaten Garut, Jawa Barat, Indonesia. Pantai yang memiliki batu-batu karang besar ini langsung berbatasan dengan Samudera Hindia sehingga memiliki ombak yang cukup besar",
+			"urlImage": "http://www.nativeindonesia.com/wp-content/uploads/2014/09/pantai-rancabuaya-nelayan.jpg"
 		}]
 	}, {
 		"id": 5,
@@ -50,9 +111,19 @@
 		"urlImage": "http://4.bp.blogspot.com/-HRSkwzjK33A/Vg3sa4ykcJI/AAAAAAAAAF4/k6BruqteE-Q/s1600/kota-cianjur.jpg",
 		"tour": [{
 			"id": 1,
-			"title": "Geopark ciletuh",
-			"content": "Geopark Ciletuh Sukabumi ini adalah salah satu lokasi liburan keren yang patut untuk kalian pertimbangan",
-			"urlImage": "http://bisniswisata.co.id/wp-content/uploads/2015/11/Geopark-Ciletuh.jpg"
+			"title": "Taman Bunga Nusantara Cianjur",
+			"content": "Taman Bunga Nusantara www.sewavillakotabunga.com adalah sebuah taman bunga seluas 23 hektare yang terletak dekat Gunung Gede Pangrango dan Kebun Teh Bogor dengan jarak tempuh sekitar 2 jam perjalanan dari Jakarta.",
+			"urlImage": "http://trevelsia.com/wp-content/uploads/2017/02/Taman-Bunga-Nusantara-Rekomendasi-Piknik-Saat-Akhir-Pekan-di-Cianjur.jpg"
+		},{
+			"id": 2,
+			"title": "Curug Ngebul Cianjur",
+			"content": "Tempat wisata baru memang selalu menarik untuk dikunjungi, terutama wisata alam, nah di Cianjur terdapat sebuah wisata alam tersembunyi yang juga layak kita kunjungi, wisata alam ini adalah air terjun bernama Curug Ngebul.",
+			"urlImage": "http://ngadem.com/wp-content/uploads/2016/07/Curug-Ngebul.jpg"
+		},{
+			"id": 3,
+			"title": "Kebun Raya Cibodas cianjur",
+			"content": "Kebun Raya Cibodas, terletak di Kompleks Hutan Gunung Gede Pangrango, Desa Cimacan, Cipanas, Cianjur. Topografi lapangannya bergelombang dan berbukit-bukit dengan ketinggian 1.275 m dpl, bersuhu udara 17 - 27 derajat Celcius",
+			"urlImage": "https://www.pegipegi.com/travel/wp-content/uploads/2015/04/Kebun-Raya-Cibodas.png"
 		}]
 	}, {
 		"id": 6,
@@ -60,9 +131,19 @@
 		"urlImage": "http://bali.panduanwisata.id/files/2011/10/air-panas-banjar3.jpg",
 		"tour": [{
 			"id": 1,
-			"title": "Geopark ciletuh",
-			"content": "Geopark Ciletuh Sukabumi ini adalah salah satu lokasi liburan keren yang patut untuk kalian pertimbangan",
-			"urlImage": "http://bisniswisata.co.id/wp-content/uploads/2015/11/Geopark-Ciletuh.jpg"
+			"title": "Situ Mustika",
+			"content": "Tidak banyak obyek wisata komersil yang ada di Kota Banjar. Tapi jika kamu mencari tempat wisata yang sudah dikelola dengan baik datang saja ke Situ Mustika. Situ atau waduk ini terletak di desa Karang Panimbal, kecamatan Purwaharja atau terletak di kaki gunung Pemancar (Babakan)",
+			"urlImage": "https://i.ytimg.com/vi/OZN0iLTkPOY/maxresdefault.jpg"
+		},{
+			"id": 2,
+			"title": "Kolam Tak Bernama Banjar",
+			"content": "Secara umum melalui penampakan di dalam foto, kolam tersebut berada di kawasan pedesaan dengan tebing batu sebagai latar belakangnya",
+			"urlImage": "https://asikwisata.files.wordpress.com/2016/08/e650f-screenshot_3.png?w=640&h=386"
+		},{
+			"id": 3,
+			"title": "Taman Cinta",
+			"content": "Dari taman yang sporty dan fun, sekarang beranjak ke Taman Cinta yang katanya tempat nongrong favorit sekaligus destinasi pacaran untuk anak muda. Meski sayangnya, taman dengan pemandangan asri dan fasilitas cukup lengkap ini kondisinya kian hari seperti tak terawat",
+			"urlImage": "http://image-serve.hipwee.com/wp-content/uploads/2016/08/hipwee-citanduy-banjar-harapanrakyat.jpg?40b8ca"
 		}]
 	}],
 	"profile": {
