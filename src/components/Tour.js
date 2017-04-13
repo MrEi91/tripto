@@ -4,24 +4,27 @@ import { Thumbnail, Body, ListItem } from 'native-base'
 import { Actions } from 'react-native-router-flux'
 
 class Tour extends Component{
-
-  constructor () {
-    super ()
+  constructor (props) {
+    super (props)
     this.state = {
-      tour:[]
+      tour:[],
+      cityName:[]
     }
   }
 
   componentDidMount () {
     const self = this
-    fetch('http://6f1a67c3.ngrok.io/cities')
+    fetch('http://5f6fed4d.ngrok.io/cities/' + self.props.cityId)
       .then((response, err) => {
         if (err) throw err
         return response.json()
       })
-      .then(data => {
+      .then(dataCity => {
+        // console.log('Image Url',dataCity.tour.pictures[0].urlImage);
+        console.log(dataCity.tour[0]);
         self.setState({
-          tour: data
+          cityName: dataCity,
+          tour: dataCity.tour
         })
       })
   }
@@ -33,7 +36,7 @@ class Tour extends Component{
           <Image style={styles.imageHeader} source={{uri:"https://alidesta.files.wordpress.com/2015/04/bandung.jpg"}}/>
         </View>
         <View style={styles.navbar}>
-          <Text style={styles.navbarText}>Bandung</Text>
+          <Text style={styles.navbarText}>{this.state.cityName.city}</Text>
         </View>
         <ScrollView>
           <View style={styles.content}>
@@ -42,10 +45,10 @@ class Tour extends Component{
                 <View key={index}>
                   <ListItem>
                     <Thumbnail size={80} source={{ uri: item.urlImage }} />
-                    <TouchableOpacity style={{ flex : 0, width: '100%'}} onPress={Actions.DestinationPictures}>
+                  <TouchableOpacity style={{ flex : 0, width: '100%'}} onPress={() => Actions.DestinationPictures({ DestinationId: item.id })}>
                       <Body>
-                        <Text style={styles.itemTitle}>{item.tour[0].title}</Text>
-                        <Text style={styles.itemContent}>{item.tour[0].content}</Text>
+                        <Text style={styles.itemTitle}>{item.title}</Text>
+                        <Text style={styles.itemContent}>{item.content}</Text>
                       </Body>
                     </TouchableOpacity>
                   </ListItem>
@@ -70,18 +73,18 @@ const styles = {
     resizeMode:'cover',
   },
   navbar: {
-    height: '7%',
+    height: '10%',
     width: '100%',
     padding: 10 ,
+    marginBottom: 5,
     backgroundColor: '#ff9900',
-    flexDirection:'row',
   },
   navbarText:{
     color:'#ffffff',
-    fontSize:20
+    fontSize:17
   },
   content:{
-    height: "73%",
+    height: "70%",
     width: "100%",
     padding: 10,
   },
