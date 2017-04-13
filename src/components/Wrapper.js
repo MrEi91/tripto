@@ -11,7 +11,7 @@ const Wrapper = (props) => {
     <Router>
       <Scene key="root">
         <Scene key="Home" component={Home} initial={true}  hideNavBar={true} />
-        <Scene key="Tour" component={Tour} title="Tour" />
+        <Scene key="Tour" component={Tour} title="Tour" citiId={props.citiId}/>
         <Scene key="DestinationPictures" component={DestinationPictures} title="DestinationPictures" />
         <Scene key="Profile" component={Profile} title="Profile"/>
       </Scene>
